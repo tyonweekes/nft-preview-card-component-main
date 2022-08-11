@@ -1,0 +1,165 @@
+/* Variables */
+:root {
+    --main-background: hsl(217, 54%, 11%);
+    --card-background: hsl(216, 50%, 16%);
+    --white: hsl(0, 0%, 100%);
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --line: hsl(215, 32%, 27%);
+}
+
+/* General */
+body {
+    background-color: var(--main-background);
+}
+
+body, html {
+    height: 100%;
+    display: grid;
+}
+
+/* Card */
+.main-container {
+    background-color: var(--card-background);
+    margin: auto;
+    padding: 15px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.main-image {
+    width: 250px;
+    border-radius: 7px;
+}
+
+span.cyan-overlay {
+    background: rgba(0, 255, 247, 0.5);
+    display: none;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    bottom: 250px;
+    margin-bottom: -250px;
+    border-radius: 7px;
+}
+
+span.cyan-overlay img {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 40px;
+}
+
+a:hover span.cyan-overlay {
+    display: block;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--white);
+}
+
+h1 a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.description {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    color: var(--soft-blue);
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ethereum-icon {
+    height: 14px;
+    padding-right: 5px;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+    color: var(--cyan);
+}
+
+.clock-icon {
+    height: 14px;
+    padding-right: 5px;
+}
+
+.time-container {
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+    color: var(--soft-blue);
+}
+
+hr {
+    height: 1px;
+    background-color: var(--line);
+    border: none;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    border: 1px solid var(--white);
+    margin-right: 15px;
+}
+
+.credit {
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+    color: var(--soft-blue);
+}
+
+.name {
+    color: var(--white);
+}
+
+.name a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+/* Attribution */
+.attribution {
+    color: var(--soft-blue);
+    font-family: 'Outfit', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 80px;
+    margin: auto;
+}
+
+.attribution a {
+    color: var(--white);
+}
+
+a:hover {
+    color: var(--cyan);
+    background-image: var(--cyan);
+}
