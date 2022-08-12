@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [NFT Preview Card Component](https://your-solution-url.com)
+- Solution URL: [NFT Preview Card Component](https://beamish-mochi-1574cd.netlify.app)
 
 ## My process
 
