@@ -44,14 +44,13 @@ span.cyan-overlay {
 }
 
 span.cyan-overlay img {
-    position: relative;
-    top: 100px;
-    left: 100px;
     width: 40px;
 }
 
 a:hover span.cyan-overlay {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
